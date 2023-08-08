@@ -1,4 +1,7 @@
-on: [pull_request, push]
+name: GitHub Actions Build and Deploy Demo
+on: 
+   pull_request:
+    types: [opened, reopened]
 jobs:
   test:
     runs-on: ubuntu-latest
