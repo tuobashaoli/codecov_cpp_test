@@ -20,3 +20,8 @@ int divide_by_two(int n)
 {
     return n >> 1;
 }
+
+int divide_by_four(int n)
+{
+    return n >> 2;
+}
